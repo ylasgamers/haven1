@@ -10,7 +10,7 @@ import string
 print(f'Daily Task Haven1 Onchain | @ylasgamers')
 web3 = Web3(Web3.HTTPProvider('https://ethereum-sepolia-rpc.publicnode.com'))
 chainId = web3.eth.chain_id
-web3_hv = Web3(Web3.HTTPProvider('https://testnet-rpc.haven1.org'))
+web3_hv = Web3(Web3.HTTPProvider('https://810.rpc.thirdweb.com'))
 chainId_hv = web3_hv.eth.chain_id
 
 #connecting web3
